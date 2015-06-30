@@ -1,0 +1,195 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+ul.nav, .jumbotron h1 {
+	font-family: 'Arvo', serif;
+}
+
+ul.nav {
+	font-size: 13px;
+}
+
+footer {
+	background-color: #e74c3c;
+	padding-top: 130px;
+	padding-bottom: 30px;
+    position: relative;
+}
+
+#back-to-top {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#back-to-top a {
+    color: #333;
+}
+
+#get-involved, #who {
+	background-color:#F5F5F5;
+}
+
+.jumbotron p {
+  text-align: left;
+  margin-bottom: 30px;
+  font-weight: 100
+}
+
+.jumbotron p em {
+  margin-left: 350px;
+}
+
+.jumbotron {
+	color: white;
+	background-image: url('../images/background.jpg');
+}
+
+.jumbotron h1 {
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+.modal-dialog {
+  position: absolute;
+  width: auto;
+  margin: 10px;
+  left: 50%;
+  margin-left: -300px;
+  top: 50%;
+  margin-top: -173px;
+}
+
+.modal-content iframe {
+    padding: 15px 5px 15px 15px;
+}
+
+.modal-content button {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      background-color: white;
+      font-size: 25px;
+      width: 30px;
+      opacity: 1;
+      border-radius: 24px;
+      /* -webkit-border-radius: 24px; */
+}
+
+.btn-lg {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+.btn-default {
+	color: white;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.homepage {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.homepage h2, .homepage h3 {
+	color: #e74c3c;
+	font-weight: 500;
+	font-family: 'Arvo', courier, serif;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 1.1;
+}
+
+.homepage h2 {
+	font-size: 30px;
+}
+
+.homepage h3 {
+    font-size: 26px;
+}
+
+.homepage p {
+    font-size: 21px;
+ 	font-weight: 300;
+ 	margin: 0 0 10px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height: 1.42857143;
+    color: #333; 
+ }
+
+.homepage hr {
+	border-top: 1px solid #e74c3c;
+	width: 160px;
+	margin-top: 15px;
+}
+
+.homepage a:hover {
+	color: #e74c3c;
+	text-decoration: none;
+	opacity: .8;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1190px) {
+
+    .jumbotron h1 {
+    	font-size: 56px;
+    	margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .jumbotron h1 {
+    	font-size: 44px;
+    }
+
+    .jumbotron p {
+    	padding: 0 10px;
+    }
+
+    #get-involved .col-md-4 {
+    	padding-top: 20px;
+    	padding-bottom: 20px;
+    }
+
+  @media (max-width: 767px) {
+
+    .jumbotron h1 {
+    	font-size: 24px;
+    }
+
+    .jumbotron p {
+    	font-size: 16px;
+    	padding: 0;
+    }
+
+    .btn-lg {
+    	font-size: 18px;
+    }
+
+    .homepage p {
+    	font-size: 18px;
+    }
+
+    footer img {
+    	width: 80%;
+    }
+}
